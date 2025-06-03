@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 0;
+}
+
+#header{
+    display: flex;
+}
+
+#logo{
+    width: 10vh;
+    height: 7vh;
+    margin-left: 4vh;
+}
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightblue;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-right: 6vh;
+}
+
+ul a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    float: left;
+}
+
+li {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li:hover {
+    background-color: rgb(131, 194, 228);
+}
+
+#head{
+    display: flex;
+}
+
+.cta-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #ffffff;
+    border-top: 4px solid #76c7c0;
+    margin-top: 40px;
+}
+
+.cta-section h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.cta-section p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 25px;
+}
+
+.cta-button {
+    background-color: lightblue;
+    color: black;
+    padding: 14px 30px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.cta-button:hover {
+    background-color: #339cff;
+    transform: scale(1.05);
+}
+
+#banner {
+    margin: auto;
+    margin-top: 6vh;
+    margin-left: 2vh;
+}
+
+.content a{
+  margin-left: 3%;
+  text-decoration: none;
+  color: black;
+}
+
+footer {
+  background-color: lightblue;
+  text-align: center;
+  padding: 2vh;
+  margin-top: 6vh;
+}
+
+#footer {
+    background: lightblue;
+    padding: 20px;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    margin-top: 6vh;
+}
+
+.content {
+  padding: 2vh;
+}
+
+.desc{
+    text-align: justify;
+    text-indent: 5%;
+    margin:5%;
+}
+.gallery img{
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    padding-top: 2%;
+}

@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 0;
+}
+
+#paragraph{
+    padding: 25px 15px;
+    border-radius: 12px;
+    text-align: center;
+    color: black;
+    margin-bottom: 25px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    background-color:  lightblue;
+   
+  }
+  #image {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 30px;
+  }
+   
+  #image img {
+    width: 85%;
+    height: 60vh;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+   
+  #image img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+  }
+
+#header{
+    display: flex;
+}
+
+#logo{
+    width: 10vh;
+    height: 7vh;
+    margin-left: 4vh;
+}
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightblue;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-left: 6vh;
+    margin-right: 6vh;
+}
+
+ul a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    float: left;
+}
+
+li {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li:hover {
+    background-color: rgb(131, 194, 228);
+}
+
+#head{
+    display: flex;
+}
+
+.cta-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #ffffff;
+    border-top: 4px solid #76c7c0;
+    margin-top: 40px;
+}
+
+.cta-section h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.cta-section p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 25px;
+}
+
+.cta-button {
+    background-color: lightblue;
+    color: black;
+    padding: 14px 30px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.cta-button:hover {
+    background-color: #339cff;
+    transform: scale(1.05);
+}
+
+#banner {
+    margin: auto;
+}
+
+#footer {
+    background: lightblue;
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+}
